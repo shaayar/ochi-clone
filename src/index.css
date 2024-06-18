@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Test Founders Grotesk X-Cond SmBd';
+  src: url('../src/assets/fonts/Founders Grotesk-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../src/assets/fonts/NeueMontreal-Regular.woff') format('woff');
+}
+
+.founders{
+  font-family: 'Test Founders Grotesk X-Cond SmBd';
+}
+
+.neue{
+  font-family: 'Neue Montreal';
+}
